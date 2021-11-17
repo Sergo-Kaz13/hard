@@ -1,0 +1,101 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  width: 952px;
+  height: 560px;
+  margin: auto;
+  background-color: #990909;
+  padding-top: 7px;
+  text-align: center;
+}
+.nav {
+  background-color: #000;
+  min-height: 160px;
+  color: #fff;
+  margin-bottom: 3px;
+}
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+.nav li {
+  padding-top: 10px;
+  padding-left: 12px;
+}
+figure {
+  width: 150px;
+  height: 125px;
+  margin: 0;
+}
+figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.main {
+  display: flex;
+  text-align: left;
+  margin-bottom: 12px;
+}
+.main p {
+  margin-bottom: 20px;
+}
+.article {
+  background-color: #930202;
+  min-width: 215px;
+  
+}
+.article a {
+  padding-left: 10px;
+  text-decoration: underline;
+  color: #FF3600;
+}
+.article li {
+  margin-bottom: 15px;
+}
+.section {
+  color: #fff;
+}
+.aside {
+  min-width: 155px;
+  background-color: #E6DEDE;
+}
+.aside h2 {
+  font-size: 18px;
+  text-align: center;
+  margin: 0 0 6px 0;
+  height: 19px;
+  background-color: #BEBEBE;
+}
+.aside p {
+  margin-bottom: 9px;
+}
+.aside p::before {
+  content: "";
+  display: block;
+  width: 50%;
+  padding-top: 16px;
+  margin: 0 auto;
+  border-top: 1px solid #c0c0c0;
+}
+.footer {
+  color: #fff;
+  font-size: 20px;
+  background-color: #FF5B00;
+}
